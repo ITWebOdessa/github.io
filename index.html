@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Пользователи Lunchroom ELENA</title>
+
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+<!-- Верхняя панель отображения пользователя и логотипа -->
+<header>
+	<div class="wrapper">
+		<div class="info">
+			<a class="logo" href="#">Lunchroom <strong>ELENA</strong></a>
+			<div class="exit"><a href="#">Администрирование</a> | <a href="#">Выход</a></div>
+			<div class="user">Сотрудник online: Саменов А.А. (Повар)</div>
+		</div>
+	</div>
+</header>		
+
+<!-- Категории блюд -->
+<section class="category">
+	<div class="wrapper">
+		<h2>Категории блюд</h2>
+		<div class="category_list">
+			<div class="category_item active">
+				<a href="#">Первые блюда</a>
+			</div>
+			<div class="category_item">
+				<a href="#">Вторые блюда</a>
+			</div>
+			<div class="category_item">
+				<a href="#">Салаты</a>
+			</div>
+			<div class="category_item">
+				<a href="#">Фарш</a>
+			</div>
+			<div class="category_item">
+				<a href="#">Чай</a>
+			</div>
+		</div>
+		
+		
+		<div id="block-serch">
+			<form method="GET" action="search.php?q=">
+				<input type="text"  id="input-search" name="q" placeholder="Быстрый поиск блюд по названию">
+				<button id="res" type="button" onclick="form.reset()"> X </button>
+				<input type="submit" id="button-search" value="Поиск"></br>		
+			</form>
+		</div>
+		
+	
+		
+
+
+
+		<div class="hr"></div>
+	</div>
+</section>
+
+<!-- Выдача товара с кухни -->
+<section class="products">
+	<div class="wrapper">
+		<h2>Выдача товара с кухни</h2>
+		<div class="products_list">
+			<div class="products_item">
+				<a href="#" class="title">Суп Харчо</a>
+				<img src="img/3.jpg">
+				<div class="products_count">
+					<ul class="input-products-style">
+						<li><p align="center" class="count-minus">-</p></li>
+						<li><p align="center"><input class="count-input" maxlength="3" type="text" value="4"></p></li>
+						<li><p align="center" class="count-plus">+</p></li>
+					</ul>
+					<a href="#" class="btn_add">Выдать</a>
+				</div>
+			</div>
+
+			<div class="products_item">
+				<a href="#" class="title">Борщ Зеленый</a>
+				<img src="img/2.jpg">
+				<div class="products_count">
+					<ul class="input-products-style">
+						<li><p align="center" class="count-minus">-</p></li>
+						<li><p align="center"><input class="count-input" maxlength="3" type="text" value="4"></p></li>
+						<li><p align="center" class="count-plus">+</p></li>
+					</ul>
+					<a href="#" class="btn_add">Выдать</a>
+				</div>
+			</div>
+
+			<div class="products_item">
+				<a href="#" class="title">Борщ красный</a>
+				<img src="img/1.jpg">
+				<div class="products_count">
+					<ul class="input-products-style">
+						<li><p align="center" class="count-minus">-</p></li>
+						<li><p align="center"><input class="count-input" maxlength="3" type="text" value="4"></p></li>
+						<li><p align="center" class="count-plus">+</p></li>
+					</ul>
+					<a href="#" class="btn_add">Выдать</a>
+				</div>
+			</div>
+
+			<div class="products_item">
+				<a href="#" class="title">Суп Харчо</a>
+				<img src="img/3.jpg">
+				<div class="products_count">
+					<ul class="input-products-style">
+						<li><p align="center" class="count-minus">-</p></li>
+						<li><p align="center"><input class="count-input" maxlength="3" type="text" value="4"></p></li>
+						<li><p align="center" class="count-plus">+</p></li>
+					</ul>
+					<a href="#" class="btn_add">Выдать</a>
+				</div>
+			</div>
+
+			<div class="products_item">
+				<a href="#" class="title">Суп Харчо</a>
+				<img src="img/3.jpg">
+				<div class="products_count">
+					<ul class="input-products-style">
+						<li><p align="center" class="count-minus">-</p></li>
+						<li><p align="center"><input class="count-input" maxlength="3" type="text" value="4"></p></li>
+						<li><p align="center" class="count-plus">+</p></li>
+					</ul>
+					<a href="#" class="btn_add">Выдать</a>
+				</div>
+			</div>
+
+			<div class="products_item">
+				<a href="#" class="title">Суп Харчо</a>
+				<img src="img/3.jpg">
+				<div class="products_count">
+					<ul class="input-products-style">
+						<li><p align="center" class="count-minus">-</p></li>
+						<li><p align="center"><input class="count-input" maxlength="3" type="text" value="4"></p></li>
+						<li><p align="center" class="count-plus">+</p></li>
+					</ul>
+					<a href="#" class="btn_add">Выдать</a>
+				</div>
+			</div>
+
+			<div class="products_item">
+				<a href="#" class="title">Суп Харчо</a>
+				<img src="img/3.jpg">
+				<div class="products_count">
+					<ul class="input-products-style">
+						<li><p align="center" class="count-minus">-</p></li>
+						<li><p align="center"><input class="count-input" maxlength="3" type="text" value="4"></p></li>
+						<li><p align="center" class="count-plus">+</p></li>
+					</ul>
+					<a href="#" class="btn_add">Выдать</a>
+				</div>
+			</div>
+
+			<div class="products_item">
+				<a href="#" class="title">Суп Харчо</a>
+				<img src="img/3.jpg">
+				<div class="products_count">
+					<ul class="input-products-style">
+						<li><p align="center" class="count-minus">-</p></li>
+						<li><p align="center"><input class="count-input" maxlength="3" type="text" value="4"></p></li>
+						<li><p align="center" class="count-plus">+</p></li>
+					</ul>
+					<a href="#" class="btn_add">Выдать</a>
+				</div>
+			</div>
+			
+
+		</div>
+		<!-- <div class="hr"></div> -->
+	</div>
+</section>
+
+
+<!-- Журнал уведомлений -->
+<section class="logbook">
+	<div class="wrapper">
+		<div class="logbook_head">
+			<h2>Журнал уведомлений</h2>
+			<a href="#" class="btn_add_logbook">Добавить уведомление</a>
+		</div>
+
+		<div class="logbook_list">
+			<div class="logbook_item">
+				<p class="author-date"><strong>Анатолий</strong>, <strong>2017-08-31 01:00:31</strong></p>
+				<p class="text-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam et dolore magna aliqua.</p> 
+			</div>
+		
+			<div class="logbook_item important">
+				<p class="author-date"><strong>Василий</strong>, <strong>2017-08-28 01:00:31</strong></p>
+				<p class="text-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam et dolore magna aliqua.</p> 
+			</div>
+
+			<div class="logbook_item">
+				<p class="author-date"><strong>Ольга</strong>, <strong>2017-08-20 01:00:31</strong></p>
+				<p class="text-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam et dolore magna aliqua.</p> 
+			</div>
+
+	
+		</div>
+		<!-- <div class="hr"></div> -->
+	</div>
+</section>
+
+<footer>
+	<div class="wrapper">
+		<div class="copyrigh">
+			<p>Copyright © 2017-18 | A.Khomych</p>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<!-- Скрипт для автоматического обновления браузера для саблайн -->
+<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+
+</body>
+</html>
